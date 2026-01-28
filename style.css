@@ -1,10 +1,16 @@
-body{
-    text-shadow: 2px 2px rgb(252, 94, 231) rgb(99, 182, 250);
-    background-image: url(https://i.pinimg.com/1200x/e6/fd/51/e6fd5157779c728e29914dcae53f961a.jpg);
-background-repeat: no-repeat;
-background-size:cover;
-    font-family: "Caveat", cursive;
-  font-optical-sizing: auto;
-  font-weight:weight;
-  font-style:normal
+body {
+  font-family: "Chicle", serif;
+  font-weight: 400;
+  font-style: normal;
+  
+  background-color: rgb(123, 183, 211);
+  font-size:45px;
+  text-shadow: 2px 2px whitesmoke;
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.rob{
+  text-align: center;
 }
