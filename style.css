@@ -1,10 +1,22 @@
 
 .karla{
-  background-color:rgb(56, 56, 160);
+  background-color:rgb(31, 67, 224);
   padding:25px;
+
 }
 
 .test{
-  display: flex;
-}
+  display:grid;
+  gap: 20px;
+  color: rgb(58, 37, 245);
+  grid-template-columns: 300px 300px 300px 300px 300px;
+  grid-template-rows:1fr 1fr;
+  height: 50px;
+  width: 100%;
+  justify-content: space-evenly;
 
+}
+.test img{
+  height: 100%;
+  width: 100%;
+}
