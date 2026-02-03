@@ -1,16 +1,24 @@
-body {
-  font-family: "Chicle", serif;
-  font-weight: 400;
-  font-style: normal;
-  
-  background-color: rgb(123, 183, 211);
-  font-size:45px;
-  text-shadow: 2px 2px whitesmoke;
-  display: grid;
-  grid-template-columns:1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+h1{
+    font-size: 100px;
+    color: rgb(255, 0, 212);
+    text-align: center;
+}
+button{
+    background-color: rgb(255, 0, 255);
+    color: rgb(15, 10, 10);
+    padding:10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
 }
 
-.rob{
-  text-align: center;
+.Card{
+   display: flex;
+   justify-content: space-around;
+   border: 2px solid rgb(255, 0, 255);
+   
+}
+body{
+    background-color: rgb(0, 0, 0);
 }
