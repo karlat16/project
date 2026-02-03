@@ -1,6 +1,6 @@
-
+ 
 .karla{
-  background-color:rgb(253, 114, 114);
+  background-color:#5bf800f8;
   padding:25px;
 
 }
@@ -8,21 +8,24 @@
 .test{
   display:grid;
   gap: 20px;
-  color: rgb(255, 94, 120);
+  color: rgb(0, 17, 255);
   grid-template-columns: 300px 300px 300px 300px 300px;
   grid-template-rows:1fr 1fr;
   height: 100px;
   width: 100%;
   justify-content: space-evenly;
-
 }
 .test img{
   height: 100%;
   width: 100%;
+
 }
  
 .text{
 margin: 8px;
 font-size:14px;
-color: black;
+color: rgba(255, 255, 255, 0.808);
+ font-family: "Boogaloo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
