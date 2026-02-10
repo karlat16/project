@@ -1,40 +1,42 @@
- h1{
-background-color:rgb(255, 255, 5) ;
+h1{
+background-color:rgb(138, 138, 129) ;
 background-repeat: repeat;
 background-position: center;
-color: black;
+color: rgb(0, 0, 0);
 background-position: bottom center;
 text-align: center;
 
-  }
+}
 
 .karla{
-  background-color:#cc00fff8;
+  background-color:#b700ff;
   padding:25px;
 
 }
-
 .test{
   display:grid;
   gap: 20px;
-  color: rgb(0, 17, 255);
+  color: #b700ff;
   grid-template-columns: 300px 300px 300px 300px 300px;
   grid-template-rows:1fr 1fr;
   height: 100px;
   width: 100%;
   justify-content: space-evenly;
+
 }
 .test img{
   height: 100%;
   width: 100%;
-
 }
  
 .text{
 margin: 8px;
 font-size:14px;
-color: white;
  font-family: "Boogaloo", sans-serif;
   font-weight: 400;
   font-style: normal;
+  padding: 25%;
 }
+
+
+
