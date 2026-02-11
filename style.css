@@ -1,4 +1,21 @@
 
+nav{
+  margin: 0 50px;
+  color: aqua;
+  text-decoration: none;
+  gap: 3px;
+}
+
+nav{
+  text-decoration: none;
+  color: #fffdfd;
+  margin: 0 50px;
+  background-color: aqua;
+  background-repeat: repeat;
+  color: #fffdfd;
+  background-position: center;
+justify-content: center;
+}
 .titulo1{
     font-family: "Barrio", system-ui;
   font-weight: 400;
@@ -59,4 +76,18 @@ font-size:14px;
 #mujer{
   font-size: 40px;
 
+}
+footer {
+  background-color: #222;
+  color: rgb(255, 251, 6);
+  text-align: center;
+  padding: 15px;
+  display: block;
+  text-shadow: violet 10px 10px 3px;
+}
+a {
+  
+  color: rgb(247, 243, 7);
+  text-decoration: none;
+  pointer-events:color
 }
